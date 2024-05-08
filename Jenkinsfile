@@ -4,7 +4,7 @@ pipeline {
         pollSCM('* * * * *') // Polls SCM every minute; adjust as necessary
     }
     stages {
-        stage('Pull and Deploy') {
+        stage('Pull and Deploy hi') {
             steps {
                 checkout scm
                 script {
